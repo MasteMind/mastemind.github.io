@@ -1,32 +1,4 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<script src="https://use.fontawesome.com/38ac63e566.js"></script>
-		
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
-
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-
-	</head>
-
-	<body>
-		<div class="react-card"></div>
-
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.js"></script>
-		<script src="https://unpkg.com/react@15.3.1/dist/react.min.js"></script>
-		<script src="https://unpkg.com/react-dom@15.3.1/dist/react-dom.min.js"></script>
-		<script src="https://unpkg.com/history@4.2.0/umd/history.min.js"></script>
-		<script type="text/babel">
-		const cardContainer = document.querySelector('.react-card');
+const cardContainer = document.querySelector('.react-card');
 
 //React component for Form Inputs
 class CardInput extends React.Component{
@@ -66,7 +38,7 @@ class CardProfileLinks extends React.Component{
 	render(){
 		const profileLinks = ['facebook', 'twitter', 'github', 'linkedin'];
 		
-		const linksList = profileLinks.map((link, index) =>
+		const linksList = profileLinks.map((link, index) => <
 			<li key={index}>
 				<a href="#">
 					<i className={'fa fa-'+link}></i>
@@ -168,7 +140,3 @@ class Card extends React.Component{
 }
 
 ReactDOM.render(<Card />, cardContainer);
-		</script>
-		
-	</body>
-</html>
