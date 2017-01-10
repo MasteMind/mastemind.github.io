@@ -65,7 +65,7 @@ class CardFront extends React.Component{
 				<div className="container-fluid">
 					<div className="row">
 						<div className="col-xs-6">
-							<img src="#" />
+							<img src="img/Lighthouse.jpg" />
 						</div>
 						
 						<div className="col-xs-6 side-front-content">
