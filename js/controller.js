@@ -74,7 +74,7 @@ class CardFront extends React.Component{
 							<h1>Software Developer</h1>
 							
 							<p>Ramiz is driven by turning ideas into scalable and empowering experiences that solve real life problems.</p>
-							<p>He is current a developer at TCS, Bangalore working in the e-Filing Project of Income Tax Department of India.</p>
+							<p>He is current a developer at TCS, Bangalore.</p>
 							<p>Mehran has had some experience working in Python, ReactJS, AngularJS and Ruby as well. All the while his proficiency being JAVA.</p>
 						</div>
 					</div>
