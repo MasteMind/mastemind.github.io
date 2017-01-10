@@ -1,4 +1,5 @@
-const cardContainer = document.querySelector('.react-card');
+
+		const cardContainer = document.querySelector('.react-card');
 
 //React component for Form Inputs
 class CardInput extends React.Component{
@@ -38,7 +39,7 @@ class CardProfileLinks extends React.Component{
 	render(){
 		const profileLinks = ['facebook', 'twitter', 'github', 'linkedin'];
 		
-		const linksList = profileLinks.map((link, index) => <
+		const linksList = profileLinks.map((link, index) =>
 			<li key={index}>
 				<a href="#">
 					<i className={'fa fa-'+link}></i>
