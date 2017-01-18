@@ -27,7 +27,7 @@ class CardBtn extends React.Component{
 	render(){
 		return (
 			<fieldset>
-				<button className={this.props.className} type={this.props.type} value={this.props.value} onClick={this.props.onClick}>{this.props.value}</button>
+				<button className={this.props.className} type={this.props.type} value={this.props.value} >{this.props.value}</button>
 			</fieldset>
 		);
 	}
@@ -91,7 +91,7 @@ class CardBack extends React.Component{
 				<div className="container-fluid">
 					<h1>Let's get in touch!</h1>
 					
-					<form formAction="" className="card-form">
+					<form formAction="https://ancient-river-93918.herokuapp.com/messageToRamiz" className="card-form">
 						<div className="row">
 							<div className="col-xs-6">
 								<CardInput name="contactFirstName" id="contactFirstName" type="text" placeholder="Your First Name" />
@@ -114,7 +114,7 @@ class CardBack extends React.Component{
 						
 						<CardTextarea name="contactMessage" id="contactMessage" placeholder="Your Message"/>
 						
-						<CardBtn className="btn btn-primary" type="submit" value="Send Message" onClick="sendMessage();" />
+						<CardBtn className="btn btn-primary" type="submit" value="Send Message" />
 					</form>
 					
 					<CardProfileLinks />
