@@ -1,5 +1,4 @@
-
-		const cardContainer = document.querySelector('.react-card');
+const cardContainer = document.querySelector('.react-card');
 
 //React component for Form Inputs
 class CardInput extends React.Component{
@@ -8,7 +7,7 @@ class CardInput extends React.Component{
 			<fieldset>
 				<input name={this.props.name} id={this.props.id} type={this.props.type || "text"} placeholder={this.props.placeholder} required />
 			</fieldset>
-		)
+		);
 	}
 }
 
@@ -28,7 +27,7 @@ class CardBtn extends React.Component{
 	render(){
 		return (
 			<fieldset>
-				<button className={this.props.className} type={this.props.type} value={this.props.value}>{this.props.value}</button>
+				<button className={this.props.className} type={this.props.type} value={this.props.value} onClick={this.props.onClick}>{this.props.value}</button>
 			</fieldset>
 		);
 	}
@@ -69,12 +68,12 @@ class CardFront extends React.Component{
 						</div>
 						
 						<div className="col-xs-6 side-front-content">
-							<h2>Bangalore Based</h2>
+							<h1>Ramiz Mehran</h1>
 							
-							<h1>Software Developer</h1>
+							<h2>Bangalore Based - Software Developer</h2>
 							
 							<p>Ramiz is driven by turning ideas into scalable and empowering experiences that solve real life problems.</p>
-							<p>He is current a developer at TCS, Bangalore.</p>
+							<p>He is currently a developer at TCS, Bangalore. He is working on the E-Filing Project of Income Tax Of India.</p>
 							<p>Mehran has had some experience working in Python, ReactJS, AngularJS and Ruby as well. All the while his proficiency being JAVA.</p>
 						</div>
 					</div>
@@ -115,7 +114,7 @@ class CardBack extends React.Component{
 						
 						<CardTextarea name="contactMessage" id="contactMessage" placeholder="Your Message"/>
 						
-						<CardBtn className="btn btn-primary" type="submit" value="Send Message" />
+						<CardBtn className="btn btn-primary" type="submit" value="Send Message" onClick="sendMessage();" />
 					</form>
 					
 					<CardProfileLinks />
