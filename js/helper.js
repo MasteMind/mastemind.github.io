@@ -1,6 +1,7 @@
 function sendMessage(){
+	var firstName = document.getElementById('contactFirstName').value;
 	var formData = new FormData();
-	formData.append('firstName',document.getElementById('contactFirstName').value);
+	formData.append('firstName',firstName);
 	formData.append('lastName',document.getElementById('contactLastName').value);
 	formData.append('email',document.getElementById('contactEmail').value);
 	formData.append('subject',document.getElementById('contactSubject').value);
