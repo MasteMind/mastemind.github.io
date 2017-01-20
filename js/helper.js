@@ -1,4 +1,4 @@
-function sendMessage(){
+function performSubmit(){
 	var firstName = document.getElementById('contactFirstName').value;
 	var formData = new FormData();
 	formData.append('firstName',firstName);
