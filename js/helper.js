@@ -7,11 +7,16 @@ function performSubmit(){
 	formData.append('subject',document.getElementById('contactSubject').value);
 	formData.append('message',document.getElementById('contactMessage').value);
 
-	xhr = new XMLHttpRequest();
-
-    xhr.open( 'POST', 'https://ancient-river-93918.herokuapp.com/messageToRamiz', true );
-    xhr.onreadystatechange = function ( response ) {
-    	alert('Thank you for showing your interest, '+firstName+' :)');
-    };
-    xhr.send( formData );
+	
+	$.ajax({
+		url: "",
+		data: formData,
+		cache: false,
+		contentType: false,
+		processData: false,
+		type: 'POST',
+		success: function(data){
+			console.log('This data came back: '+data);
+		}
+	});
 }
