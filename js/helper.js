@@ -10,7 +10,7 @@ function performSubmit(e){
 
 	
 	$.ajax({
-		url: "",
+		url: "ancient-river-93918.herokuapp.com/messageToRamiz",
 		data: formData,
 		cache: false,
 		contentType: false,
