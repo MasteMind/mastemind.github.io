@@ -87,16 +87,16 @@ class CardFront extends React.Component{
 class CardBack extends React.Component{
 	render(){
 		
-var handleSubmit = function(){
-	performFormSubmit();
-};
+		var handleSubmit = function(){
+			performFormSubmit();
+		};
 
-return (
+		return (
 			<div className="card-side side-back">
 				<div className="container-fluid">
 					<h1>Let's get in touch!</h1>
 					
-					<form onSubmit={this.handleSubmit} className="card-form">
+					<form onSubmit={handleSubmit} className="card-form">
 						<div className="row">
 							<div className="col-xs-6">
 								<CardInput name="contactFirstName" id="contactFirstName" type="text" placeholder="Your First Name" />
