@@ -88,7 +88,7 @@ class CardBack extends React.Component{
 	render(){
 		
 		var handleSubmit = function(){
-			performFormSubmit();
+			performSubmit();
 		};
 
 		return (
