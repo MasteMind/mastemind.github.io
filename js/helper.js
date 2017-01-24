@@ -1,4 +1,5 @@
-function performSubmit(){
+function performSubmit(e){
+	e.preventDefault();
 	var firstName = document.getElementById('contactFirstName').value;
 	var formData = new FormData();
 	formData.append('firstName',firstName);
