@@ -87,7 +87,7 @@ class CardFront extends React.Component{
 class CardBack extends React.Component{
 	render(){
 		
-function handleSubmit(){
+var handleSubmit = function(){
 	performFormSubmit();
 };
 
