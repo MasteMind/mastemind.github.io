@@ -164,3 +164,7 @@ textarea {
 .social-links  li:nth-of-type(n+2) {
   margin-left: 24px;
  }
+
+ol, ul {
+  text-align: left;
+}

@@ -107,27 +107,27 @@ class CardBack extends React.Component{
 						<div className="col-xs-6">
 							<h3>Web Development</h3>
 							<ul>
-								<li>RoR</li>
-								<li>Java EE</li>
+								<li>Java Apache TOMCAT</li>
 								<li>AngularJS</li>
 								<li>ReactJS</li>
+								<li>RoR</li>
 							</ul>
 						</div>
 					</div>
 						
 					<div className="row">
 						<div className="col-xs-6">
-							<h3>Forte</h3>
+							<h3>Projects</h3>
 							<ul>
-								<li>JAVA</li>
+								<li></li>
 							</ul>
 						</div>
 						
 						<div className="col-xs-6">
-							<h3>Also Knows</h3>
+							<h3>Blogs</h3>
 							<ul>
-								<li>Ruby</li>
-								<li>Python</li>
+								<li></li>
+								<li></li>
 							</ul>
 						</div>
 					</div>
