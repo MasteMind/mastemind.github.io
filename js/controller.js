@@ -104,7 +104,7 @@ class CardBack extends React.Component{
 							</ul>
 						</div>
 						
-						<div className="cols-xs-6">
+						<div className="col-xs-6">
 							<h3>Web Development</h3>
 							<ul>
 								<li>RoR</li>
@@ -123,7 +123,7 @@ class CardBack extends React.Component{
 							</ul>
 						</div>
 						
-						<div className="cols-xs-6">
+						<div className="col-xs-6">
 							<h3>Also Knows</h3>
 							<ul>
 								<li>Ruby</li>
