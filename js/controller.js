@@ -94,33 +94,43 @@ class CardBack extends React.Component{
 		return (
 			<div className="card-side side-back">
 				<div className="container-fluid">
-					<h1>Let's get in touch!</h1>
+					<h1>My Competencies!</h1>
 					
-					<form onSubmit={handleSubmit} className="card-form">
-						<div className="row">
-							<div className="col-xs-6">
-								<CardInput name="contactFirstName" id="contactFirstName" type="text" placeholder="Your First Name" />
-							</div>
-							
-							<div className="cols-xs-6">
-								<CardInput name="contactLastName" id="contactLastName" type="text" placeholder="Your Last Name" />
-							</div>
-						</div>
-							
-						<div className="row">
-							<div className="col-xs-6">
-								<CardInput name="contactEmail" id="contactEmail" type="text" placeholder="Your Email Address" />
-							</div>
-							
-							<div className="cols-xs-6">
-								<CardInput name="contactSubject" id="contactSubject" type="text" placeholder="Subject" />
-							</div>
+					<div className="row">
+						<div className="col-xs-6">
+							<h3>Mobile</h3>
+							<ul>
+								<li>Android</li>
+							</ul>
 						</div>
 						
-						<CardTextarea name="contactMessage" id="contactMessage" placeholder="Your Message"/>
+						<div className="cols-xs-6">
+							<h3>Web Development</h3>
+							<ul>
+								<li>RoR</li>
+								<li>Java EE</li>
+								<li>AngularJS</li>
+								<li>ReactJS</li>
+							</ul>
+						</div>
+					</div>
 						
-						<CardBtn className="btn btn-primary" type="submit" value="Send Message" />
-					</form>
+					<div className="row">
+						<div className="col-xs-6">
+							<h3>Forte</h3>
+							<ul>
+								<li>JAVA</li>
+							</ul>
+						</div>
+						
+						<div className="cols-xs-6">
+							<h3>Also Knows</h3>
+							<ul>
+								<li>Ruby</li>
+								<li>Python</li>
+							</ul>
+						</div>
+					</div>
 					
 					<CardProfileLinks />
 				</div>
