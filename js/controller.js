@@ -73,7 +73,7 @@ class CardFront extends React.Component{
 							<h2>Bangalore Based - Software Developer</h2>
 							
 							<p>Ramiz is driven by turning ideas into scalable and empowering experiences that solve real life problems.</p>
-							<p>He is currently a developer at TCS, Bangalore. He is working on the E-Filing Project of Income Tax Of India.</p>
+							<p>He is currently a developer at TCS, Bangalore. He loves new challenges, and is always ready to learn something new.</p>
 							<p>Mehran has had some experience working in Python, ReactJS, AngularJS and Ruby as well. All the while his proficiency being JAVA.</p>
 						</div>
 					</div>
